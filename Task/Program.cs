@@ -9,7 +9,7 @@
         string[] inputArray = { "Hello", "2", "world", ":-)", "yes", "no", "1234", "cat" };
         
         // Вызываем метод для получения нового массива с нужными строками
-        string[] resultArray = GetStringsLessOrEqualThreeChars(inputArray);
+        string[] resultArray = GetStringsThreeChars(inputArray);
         
         // Выводим результат
         Console.WriteLine("Новый массив строк, длина которых меньше или равна 3 символам:");
@@ -19,7 +19,7 @@
         }
     }
 
-    static string[] GetStringsLessOrEqualThreeChars(string[] array)
+    static string[] GetStringsThreeChars(string[] array)
     {
         // Сначала определим, сколько строк удовлетворяют условию
         int count = 0;
